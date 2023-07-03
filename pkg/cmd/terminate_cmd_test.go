@@ -1,11 +1,10 @@
-package terminate_test
+package cmd
 
 import (
 	"bytes"
 	"os"
 	"testing"
 
-	"github.com/xcoulon/kubectl-terminate/cmd/terminate"
 	"github.com/xcoulon/kubectl-terminate/test"
 
 	"github.com/spf13/cobra"
